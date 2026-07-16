@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#f4f6f8"/>
+  <rect x="0" y="0" width="280" height="900" fill="#f9fbfd" stroke="#d8e0ea"/>
+  <text x="28" y="42" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#14213d">Filtros</text>
+  <g font-family="Segoe UI, Arial" font-size="13" fill="#5f6f82">
+    <text x="28" y="92">Año</text><rect x="28" y="106" width="224" height="66" rx="6" fill="#fff" stroke="#d8e0ea"/><text x="42" y="146" fill="#14213d">2003-2026</text>
+    <text x="28" y="210">Cadena / rubro</text><rect x="28" y="224" width="224" height="66" rx="6" fill="#fff" stroke="#d8e0ea"/><text x="42" y="264" fill="#14213d">Todas</text>
+    <text x="28" y="328">Producto</text><rect x="28" y="342" width="224" height="66" rx="6" fill="#fff" stroke="#d8e0ea"/><text x="42" y="382" fill="#14213d">Todos</text>
+    <text x="28" y="446">País destino</text><rect x="28" y="460" width="224" height="66" rx="6" fill="#fff" stroke="#d8e0ea"/><text x="42" y="500" fill="#14213d">Todos</text>
+  </g>
+  <rect x="280" y="0" width="1160" height="94" fill="#fff" stroke="#d8e0ea"/>
+  <text x="312" y="26" font-family="Segoe UI, Arial" font-size="12" font-weight="700" fill="#c9972b">COMERCIO EXTERIOR PROVINCIAL</text>
+  <text x="312" y="60" font-family="Segoe UI, Arial" font-size="32" font-weight="700" fill="#14213d">Exportaciones de San Juan</text>
+  <text x="312" y="82" font-family="Segoe UI, Arial" font-size="14" fill="#5f6f82">Período seleccionado: 2003-2026. Fuente: Serie exportaciones 2003-mayo 2026.xlsx.</text>
+  <g font-family="Segoe UI, Arial" font-size="14" fill="#14213d">
+    <rect x="312" y="120" width="112" height="36" rx="6" fill="#123a63"/><text x="338" y="143" fill="#fff">Resumen</text>
+    <rect x="432" y="120" width="112" height="36" rx="6" fill="#fff" stroke="#d8e0ea"/><text x="456" y="143">Evolución</text>
+    <rect x="552" y="120" width="112" height="36" rx="6" fill="#fff" stroke="#d8e0ea"/><text x="577" y="143">Productos</text>
+    <rect x="672" y="120" width="112" height="36" rx="6" fill="#fff" stroke="#d8e0ea"/><text x="700" y="143">Destinos</text>
+  </g>
+  <rect x="312" y="176" width="1068" height="54" rx="8" fill="#fff" stroke="#d8e0ea"/>
+  <rect x="312" y="176" width="4" height="54" fill="#c9972b"/>
+  <text x="332" y="209" font-family="Segoe UI, Arial" font-size="14" fill="#5f6f82">La base de exportaciones disponible es anual. No se encontraron columnas de mes, cantidades ni códigos ISO de países.</text>
+  <g font-family="Segoe UI, Arial">
+    <g transform="translate(312 252)"><rect width="196" height="132" rx="8" fill="#fff" stroke="#d8e0ea"/><text x="16" y="28" font-size="12" font-weight="700" fill="#5f6f82">EXPORTACIONES ÚLTIMO AÑO</text><text x="16" y="66" font-size="25" font-weight="700" fill="#14213d">US$ 1.110,1 M</text><text x="16" y="90" font-size="12" fill="#5f6f82">2026</text><text x="16" y="114" font-size="13" fill="#a33a3a">Var. i.a. -47,1%</text></g>
+    <g transform="translate(522 252)"><rect width="196" height="132" rx="8" fill="#fff" stroke="#d8e0ea"/><text x="16" y="28" font-size="12" font-weight="700" fill="#5f6f82">EXPORTACIONES ACUMULADAS</text><text x="16" y="66" font-size="25" font-weight="700" fill="#14213d">US$ 31.095,5 M</text><text x="16" y="90" font-size="12" fill="#5f6f82">Período filtrado</text></g>
+    <g transform="translate(732 252)"><rect width="196" height="132" rx="8" fill="#fff" stroke="#d8e0ea"/><text x="16" y="28" font-size="12" font-weight="700" fill="#5f6f82">PRINCIPAL PRODUCTO</text><text x="16" y="58" font-size="17" font-weight="700" fill="#14213d">Oro p/uso no monetario</text><text x="16" y="90" font-size="12" fill="#5f6f82">85,1% del último año</text></g>
+    <g transform="translate(942 252)"><rect width="196" height="132" rx="8" fill="#fff" stroke="#d8e0ea"/><text x="16" y="28" font-size="12" font-weight="700" fill="#5f6f82">PRINCIPAL DESTINO</text><text x="16" y="66" font-size="25" font-weight="700" fill="#14213d">Suiza</text><text x="16" y="90" font-size="12" fill="#5f6f82">58,8% del último año</text></g>
+    <g transform="translate(1152 252)"><rect width="196" height="132" rx="8" fill="#fff" stroke="#d8e0ea"/><text x="16" y="28" font-size="12" font-weight="700" fill="#5f6f82">COBERTURA</text><text x="16" y="66" font-size="25" font-weight="700" fill="#14213d">944 productos</text><text x="16" y="90" font-size="12" fill="#5f6f82">177 países</text></g>
+  </g>
+  <rect x="312" y="410" width="520" height="340" rx="8" fill="#fff" stroke="#d8e0ea"/>
+  <text x="334" y="444" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#14213d">Evolución anual</text>
+  <polyline points="350,690 390,660 430,635 470,610 510,580 550,540 590,500 630,480 670,455 710,430 750,500 790,650" fill="none" stroke="#123a63" stroke-width="4"/>
+  <line x1="350" y1="704" x2="790" y2="704" stroke="#d8e0ea"/><line x1="350" y1="456" x2="350" y2="704" stroke="#d8e0ea"/>
+  <rect x="860" y="410" width="520" height="340" rx="8" fill="#fff" stroke="#d8e0ea"/>
+  <text x="882" y="444" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#14213d">Composición por cadena</text>
+  <g fill="#123a63"><rect x="1010" y="480" width="280" height="20" rx="3"/><rect x="1010" y="525" width="180" height="20" rx="3"/><rect x="1010" y="570" width="126" height="20" rx="3"/><rect x="1010" y="615" width="92" height="20" rx="3"/></g>
+  <g font-family="Segoe UI, Arial" font-size="13" fill="#5f6f82">
+    <text x="884" y="496">Minería metalífera</text><text x="884" y="541">Vitivinícola</text><text x="884" y="586">Hortícola</text><text x="884" y="631">Otros</text>
+  </g>
+</svg>

@@ -1,0 +1,232 @@
+﻿{
+    "generated_at":  "2026-07-14 14:19:52",
+    "source_update_date":  "2026-07-14",
+    "source_files":  [
+                         {
+                             "name":  "data_audit.md",
+                             "extension":  ".md",
+                             "bytes":  6849,
+                             "last_write_time":  "2026-07-14 14:19:10"
+                         },
+                         {
+                             "name":  "Datos Pedidos a Tania 02.07 (1).xlsx",
+                             "extension":  ".xlsx",
+                             "bytes":  104415,
+                             "last_write_time":  "2026-07-06 11:45:30",
+                             "sheets":  [
+                                            "Cuadro 1",
+                                            "Construcción",
+                                            "Cuadro 2",
+                                            "Industria ",
+                                            "Comercio",
+                                            "% 2025",
+                                            "Contribución en PGB ",
+                                            "PGB VS PBI",
+                                            "Per capita",
+                                            "EXPO"
+                                        ]
+                         },
+                         {
+                             "name":  "index.html",
+                             "extension":  ".html",
+                             "bytes":  8538,
+                             "last_write_time":  "2026-07-14 13:53:59"
+                         },
+                         {
+                             "name":  "informe-final.pdf",
+                             "extension":  ".pdf",
+                             "bytes":  778490,
+                             "last_write_time":  "2026-07-13 14:56:33"
+                         },
+                         {
+                             "name":  "ITCRMSerie.xlsx",
+                             "extension":  ".xlsx",
+                             "bytes":  3650007,
+                             "last_write_time":  "2026-07-13 09:10:24",
+                             "sheets":  [
+                                            "ITCRM y bilaterales",
+                                            "ITCRM y bilaterales prom. mens.",
+                                            "Ponderadores"
+                                        ]
+                         },
+                         {
+                             "name":  "README.md",
+                             "extension":  ".md",
+                             "bytes":  3374,
+                             "last_write_time":  "2026-07-14 14:19:19"
+                         },
+                         {
+                             "name":  "resumen-cadenas.csv",
+                             "extension":  ".csv",
+                             "bytes":  174465,
+                             "last_write_time":  "2026-07-14 10:52:30"
+                         },
+                         {
+                             "name":  "Serie 2004-2025 PGB Dolarizada 17.06.xlsx",
+                             "extension":  ".xlsx",
+                             "bytes":  81128,
+                             "last_write_time":  "2026-07-14 14:09:48",
+                             "sheets":  [
+                                            "V.Agregado U$S"
+                                        ]
+                         },
+                         {
+                             "name":  "Serie exportaciones 2003-mayo 2026.xlsx",
+                             "extension":  ".xlsx",
+                             "bytes":  1665199,
+                             "last_write_time":  "2026-07-14 10:48:13",
+                             "sheets":  [
+                                            "Base 2003-2026 procesada",
+                                            "Tabla dinámica"
+                                        ]
+                         },
+                         {
+                             "name":  "Serie importaciones 2021-mayo 2026.xlsx",
+                             "extension":  ".xlsx",
+                             "bytes":  527070,
+                             "last_write_time":  "2026-07-14 10:48:04",
+                             "sheets":  [
+                                            "Base 2021-2026 procesada",
+                                            "Tabla dinámica"
+                                        ]
+                         },
+                         {
+                             "name":  "serie_indices_expo.xlsx",
+                             "extension":  ".xlsx",
+                             "bytes":  163940,
+                             "last_write_time":  "2026-07-14 11:46:59",
+                             "sheets":  [
+                                            "Sheet1",
+                                            "glosario"
+                                        ]
+                         },
+                         {
+                             "name":  "serie_indices_impo.xlsx",
+                             "extension":  ".xlsx",
+                             "bytes":  175417,
+                             "last_write_time":  "2026-07-14 12:00:10",
+                             "sheets":  [
+                                            "Sheet1",
+                                            "glosario"
+                                        ]
+                         },
+                         {
+                             "name":  "technical_notes.md",
+                             "extension":  ".md",
+                             "bytes":  5863,
+                             "last_write_time":  "2026-07-14 14:19:19"
+                         }
+                     ],
+    "trade_sources":  [
+                          {
+                              "operation":  "export",
+                              "operation_label":  "Exportaciones",
+                              "source_file":  "Serie exportaciones 2003-mayo 2026.xlsx",
+                              "source_sheet":  "Base 2003-2026 procesada",
+                              "columns":  [
+                                              "AÑO",
+                                              "NOMENCLADOR",
+                                              "PRODUCTO",
+                                              "CADENA",
+                                              "PAÍS",
+                                              "CONTINENTE",
+                                              "U$S FOB",
+                                              "PESO NETO (KG)"
+                                          ],
+                              "selected_columns":  {
+                                                       "year":  "AÑO",
+                                                       "product":  "PRODUCTO",
+                                                       "ncm":  "NOMENCLADOR",
+                                                       "month":  null,
+                                                       "weight":  "PESO NETO (KG)",
+                                                       "value_usd":  "U$S FOB",
+                                                       "quantity":  null,
+                                                       "country":  "PAÍS",
+                                                       "continent":  "CONTINENTE",
+                                                       "rubro":  "CADENA"
+                                                   },
+                              "records":  20772
+                          },
+                          {
+                              "operation":  "import",
+                              "operation_label":  "Importaciones",
+                              "source_file":  "Serie importaciones 2021-mayo 2026.xlsx",
+                              "source_sheet":  "Base 2021-2026 procesada",
+                              "columns":  [
+                                              "AÑO",
+                                              "NOMEN",
+                                              "PRODUCTO",
+                                              "CADENA",
+                                              "COD PAÍS",
+                                              "PAÍS",
+                                              "CONTINENTE",
+                                              "U$S CIF",
+                                              "PESO NETO (KG)"
+                                          ],
+                              "selected_columns":  {
+                                                       "year":  "AÑO",
+                                                       "product":  "PRODUCTO",
+                                                       "ncm":  "NOMEN",
+                                                       "month":  null,
+                                                       "weight":  "PESO NETO (KG)",
+                                                       "value_usd":  "U$S CIF",
+                                                       "quantity":  null,
+                                                       "country":  "PAÍS",
+                                                       "continent":  "CONTINENTE",
+                                                       "rubro":  "CADENA"
+                                                   },
+                              "records":  3665
+                          }
+                      ],
+    "pgb_source":  {
+                       "source_sheet":  "V.Agregado U$S",
+                       "source_file":  "Serie 2004-2025 PGB Dolarizada 17.06.xlsx",
+                       "indicator":  "PGB USD San Juan - Total Sectores"
+                   },
+    "export_source_file":  "Serie exportaciones 2003-mayo 2026.xlsx",
+    "export_source_sheet":  "Base 2003-2026 procesada",
+    "import_source_file":  "Serie importaciones 2021-mayo 2026.xlsx",
+    "import_source_sheet":  "Base 2021-2026 procesada",
+    "export_columns":  [
+                           "AÑO",
+                           "NOMENCLADOR",
+                           "PRODUCTO",
+                           "CADENA",
+                           "PAÍS",
+                           "CONTINENTE",
+                           "U$S FOB",
+                           "PESO NETO (KG)"
+                       ],
+    "import_columns":  [
+                           "AÑO",
+                           "NOMEN",
+                           "PRODUCTO",
+                           "CADENA",
+                           "COD PAÍS",
+                           "PAÍS",
+                           "CONTINENTE",
+                           "U$S CIF",
+                           "PESO NETO (KG)"
+                       ],
+    "selected_columns":  {
+                             "year":  "AÑO",
+                             "product":  "PRODUCTO",
+                             "ncm":  "NOMENCLADOR",
+                             "month":  null,
+                             "weight":  "PESO NETO (KG)",
+                             "value_usd":  "U$S FOB",
+                             "quantity":  null,
+                             "country":  "PAÍS",
+                             "continent":  "CONTINENTE",
+                             "rubro":  "CADENA"
+                         },
+    "periods":  {
+                    "last":  "2025",
+                    "first":  "2003",
+                    "count":  23
+                },
+    "notes":  [
+                  "Los archivos fuente se conservaron sin modificaciones.",
+                  "Los totales por suma pueden no coincidir debido al redondeo de las cifras parciales."
+              ]
+}

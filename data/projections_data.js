@@ -1,0 +1,4845 @@
+﻿window.PROJECTIONS_DATA = {
+    "metadata":  {
+                     "generated_at":  "2026-07-15 14:31:14",
+                     "method":  "ARIMAX aproximado por cadena: log(valor) con diferencia anual, componente AR(1) e ITCRM multilateral como regresor exogeno en diferencias logaritmicas.",
+                     "itcrm_source_file":  "ITCRMSerie.xlsx",
+                     "itcrm_source_sheet":  "ITCRM y bilaterales prom. mens.",
+                     "forecast_horizon":  2035,
+                     "inclusion_rule":  "Se proyectan solo cadenas con dato positivo en 2025 y minimo de observaciones positivas: 8 para exportaciones y 4 para importaciones. Las cadenas discontinuas o sin dato reciente se excluyen del forecast principal.",
+                     "scenario_rule":  "Base: pronostico puntual con ITCRM futuro constante en el ultimo promedio anual observado. Optimista/conservador: +/- 1 RMSE historico del crecimiento logaritmico estimado por cadena."
+                 },
+    "itcrm_annual":  [
+                         {
+                             "year":  1997,
+                             "itcrm":  83.750258
+                         },
+                         {
+                             "year":  1998,
+                             "itcrm":  81.973348
+                         },
+                         {
+                             "year":  1999,
+                             "itcrm":  72.962503
+                         },
+                         {
+                             "year":  2000,
+                             "itcrm":  72.887088
+                         },
+                         {
+                             "year":  2001,
+                             "itcrm":  69.469712
+                         },
+                         {
+                             "year":  2002,
+                             "itcrm":  168.396318
+                         },
+                         {
+                             "year":  2003,
+                             "itcrm":  151.752559
+                         },
+                         {
+                             "year":  2004,
+                             "itcrm":  158.493263
+                         },
+                         {
+                             "year":  2005,
+                             "itcrm":  161.543172
+                         },
+                         {
+                             "year":  2006,
+                             "itcrm":  165.585737
+                         },
+                         {
+                             "year":  2007,
+                             "itcrm":  160.410745
+                         },
+                         {
+                             "year":  2008,
+                             "itcrm":  145.752211
+                         },
+                         {
+                             "year":  2009,
+                             "itcrm":  143.889184
+                         },
+                         {
+                             "year":  2010,
+                             "itcrm":  130.229212
+                         },
+                         {
+                             "year":  2011,
+                             "itcrm":  121.691996
+                         },
+                         {
+                             "year":  2012,
+                             "itcrm":  104.20285
+                         },
+                         {
+                             "year":  2013,
+                             "itcrm":  100.369433
+                         },
+                         {
+                             "year":  2014,
+                             "itcrm":  105.689238
+                         },
+                         {
+                             "year":  2015,
+                             "itcrm":  82.724349
+                         },
+                         {
+                             "year":  2016,
+                             "itcrm":  94.030408
+                         },
+                         {
+                             "year":  2017,
+                             "itcrm":  88.039151
+                         },
+                         {
+                             "year":  2018,
+                             "itcrm":  109.298283
+                         },
+                         {
+                             "year":  2019,
+                             "itcrm":  121.201686
+                         },
+                         {
+                             "year":  2020,
+                             "itcrm":  117.571575
+                         },
+                         {
+                             "year":  2021,
+                             "itcrm":  113.511889
+                         },
+                         {
+                             "year":  2022,
+                             "itcrm":  95.241747
+                         },
+                         {
+                             "year":  2023,
+                             "itcrm":  96.952741
+                         },
+                         {
+                             "year":  2024,
+                             "itcrm":  95.121465
+                         },
+                         {
+                             "year":  2025,
+                             "itcrm":  89.094823
+                         }
+                     ],
+    "exports":  {
+                    "chains":  [
+                                   {
+                                       "chain":  "OTROS",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  3437427
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  7120293
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  12266709.189999996
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  14712112.510000004
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  16548367.239999998
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  21952321.190000009
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  19595772.440000005
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  17445601.159999996
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  16085983.43
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  15822720.02
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  8467260.15
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  4267399.3299999991
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  2427946.8599999989
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  1799942.7799999996
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  1792854.2199999995
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  1559121.12
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  1130394.6000000006
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  1018369.4699999996
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  1031068.5199999999
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  1486163.77
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  1324158.0300000003
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  1456060.7000000007
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  1571977.51
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.06451768,
+                                                                          "ar1":  0.62805408,
+                                                                          "itcrm_beta":  -0.6662168
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.20787082,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  1571977.51,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  1546393.57,
+                                                                          "optimistic":  1903694.19,
+                                                                          "conservative":  1256154
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  1434910.01,
+                                                                          "optimistic":  1766451.89,
+                                                                          "conservative":  1165594.57
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  1283500.79,
+                                                                          "optimistic":  1580058.95,
+                                                                          "conservative":  1042603.05
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  1121917.02,
+                                                                          "optimistic":  1381140.58,
+                                                                          "conservative":  911346.62
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  966585.93,
+                                                                          "optimistic":  1189919.6,
+                                                                          "conservative":  785169.32
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  825226.12,
+                                                                          "optimistic":  1015898.03,
+                                                                          "conservative":  670341.06
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  700529.44,
+                                                                          "optimistic":  862389.66,
+                                                                          "conservative":  569048.45
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  592547.02,
+                                                                          "optimistic":  729457.46,
+                                                                          "conservative":  481333.04
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  500082.17,
+                                                                          "optimistic":  615628.22,
+                                                                          "conservative":  406222.73
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  421449.72,
+                                                                          "optimistic":  518827.41,
+                                                                          "conservative":  342348.65
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.HORTÍCOLA",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  16621140.89
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  19402026.070000004
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  26409202.410000008
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  30813554.800000004
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  41704875.879999988
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  43261766.929999992
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  40957475.439999983
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  69455056.410000041
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  72300607.449999973
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  49531779.300000004
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  58042984.849999987
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  41056939.419999994
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  38665887.079999991
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  49035157.96
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  52861743.659999989
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  38394910.83
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  31153028.019999996
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  56375459.110000007
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  50267153.330000006
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  47795535.91
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  48903914.919999994
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  66334793.26
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  58469328.78
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.05695784,
+                                                                          "ar1":  -0.14796913,
+                                                                          "itcrm_beta":  -0.19410269
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.255774,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  58469328.78,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  63063091.37,
+                                                                          "optimistic":  81443511.96,
+                                                                          "conservative":  48830820.25
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  66016328.55,
+                                                                          "optimistic":  85257502.08,
+                                                                          "conservative":  51117561.84
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  69413955.37,
+                                                                          "optimistic":  89645404.02,
+                                                                          "conservative":  53748401.86
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  72938733.44,
+                                                                          "optimistic":  94197516.81,
+                                                                          "conservative":  56477697.25
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  76649912.99,
+                                                                          "optimistic":  98990359.81,
+                                                                          "conservative":  59351326.46
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  80548766.96,
+                                                                          "optimistic":  104025576.98,
+                                                                          "conservative":  62370275.16
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  84646118.33,
+                                                                          "optimistic":  109317145.74,
+                                                                          "conservative":  65542923.75
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  88951865.7,
+                                                                          "optimistic":  114877849.8,
+                                                                          "conservative":  68876936.9
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  93476640.58,
+                                                                          "optimistic":  120721419.29,
+                                                                          "conservative":  72380546.76
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  98231579.57,
+                                                                          "optimistic":  126862236.72,
+                                                                          "conservative":  76062376.59
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.OLIVÍCOLA",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  5643179
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  4312429
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  10448482.47
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  12692863.33
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  15842631.339999992
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  14049187.71
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  17858879.140000004
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  18525455.41
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  23819862.159999996
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  17733390.83
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  30293241.39
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  12464947.75
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  31179171.45
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  25538555.900000002
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  47683213.079999991
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  30988648.06
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  23963500.040000003
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  23294298.75
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  39778224.5
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  28240554.9
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  73620330.19
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  72793716.93
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  31956811.52
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.15804702,
+                                                                          "ar1":  -0.57024487,
+                                                                          "itcrm_beta":  -0.24672558
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.42719048,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  31956811.52,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  59852500.22,
+                                                                          "optimistic":  91750569.16,
+                                                                          "conservative":  39044136.89
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  49013844.12,
+                                                                          "optimistic":  75135509.44,
+                                                                          "conservative":  31973655.78
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  64333054.52,
+                                                                          "optimistic":  98619010.85,
+                                                                          "conservative":  41966978.46
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  64523574,
+                                                                          "optimistic":  98911066.66,
+                                                                          "conservative":  42091261.8
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  75444056.24,
+                                                                          "optimistic":  115651561.34,
+                                                                          "conservative":  49215121.32
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  80824044.53,
+                                                                          "optimistic":  123898785.53,
+                                                                          "conservative":  52724699.01
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  91016543.58,
+                                                                          "optimistic":  139523322.27,
+                                                                          "conservative":  59373666.49
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  99619921.11,
+                                                                          "optimistic":  152711823.71,
+                                                                          "conservative":  64985987.6
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  110819656.34,
+                                                                          "optimistic":  169880397.76,
+                                                                          "conservative":  72292014.81
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  122143446.86,
+                                                                          "optimistic":  187239141.7,
+                                                                          "conservative":  79678968.17
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.FRUTÍCOLA",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  1999917.6000000006
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  2126132.4399999995
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  2745190.6000000006
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  3486675.540000001
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  3694748.8799999994
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  3466295.13
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  3061262.5700000012
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  3862992.1799999997
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  4746144.63
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  3632506.28
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  3731416.0200000005
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  2468910.4699999997
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  3388792.6999999997
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  3698998.2100000009
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  4400273.18
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  6652459.580000001
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  7707845.9700000016
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  4390167.76
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  6979779.5600000005
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  4917763.8
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  8388681.91
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  5308913.62
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  6496210.370000001
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.10963539,
+                                                                          "ar1":  -0.60519647,
+                                                                          "itcrm_beta":  1.03224919
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.24053719,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  6496210.37,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  6415433.05,
+                                                                          "optimistic":  8159996.12,
+                                                                          "conservative":  5043848.14
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  7213212.4,
+                                                                          "optimistic":  9174717.4,
+                                                                          "conservative":  5671066.57
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  7497847.5,
+                                                                          "optimistic":  9536753.96,
+                                                                          "conservative":  5894848.23
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  8172944.98,
+                                                                          "optimistic":  10395432.21,
+                                                                          "conservative":  6425613.52
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  8656311.36,
+                                                                          "optimistic":  11010241.49,
+                                                                          "conservative":  6805638.77
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  9329205.55,
+                                                                          "optimistic":  11866117.3,
+                                                                          "conservative":  7334671.82
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  9949074.5,
+                                                                          "optimistic":  12654548.6,
+                                                                          "conservative":  7822016.14
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  10677970.94,
+                                                                          "optimistic":  13581655.48,
+                                                                          "conservative":  8395078.46
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  11416147.83,
+                                                                          "optimistic":  14520566.47,
+                                                                          "conservative":  8975437.12
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  12233881.23,
+                                                                          "optimistic":  15560667.93,
+                                                                          "conservative":  9618343.54
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.VITÍCOLA",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  67102041.62
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  105434849.40999998
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  145093929.36999989
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  173247386.21999988
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  206198727.38000005
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  277333322.91
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  197915633.08000019
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  232665613.95000002
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  308407677.00999981
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  308456235.84999985
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  270751738.31
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  211026334.52999997
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  183657279.21999994
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  190867343.79000017
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  129884047.52999996
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  179424896.00000012
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  161007816.90000007
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  128364968.41999997
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  118225979.08999996
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  120904560.14000003
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  89266945.389999956
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  143796485.21999988
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  141754961.07999995
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.0233029,
+                                                                          "ar1":  -0.04222335,
+                                                                          "itcrm_beta":  0.2798076
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.23797693,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  141754961.08,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  145184681.28,
+                                                                          "optimistic":  184192890.79,
+                                                                          "conservative":  114437596.31
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  148457701.3,
+                                                                          "optimistic":  188345305.58,
+                                                                          "conservative":  117017459
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  151814848.05,
+                                                                          "optimistic":  192604450.28,
+                                                                          "conservative":  119663632.15
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  155247465.11,
+                                                                          "optimistic":  196959342.64,
+                                                                          "conservative":  122369292.57
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  158757714.81,
+                                                                          "optimistic":  201412725.97,
+                                                                          "conservative":  125136144.65
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  162347332.79,
+                                                                          "optimistic":  205966802.25,
+                                                                          "conservative":  127965556.47
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  166018114.46,
+                                                                          "optimistic":  210623849.27,
+                                                                          "conservative":  130858943.21
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  169771894.96,
+                                                                          "optimistic":  215386195.24,
+                                                                          "conservative":  133817751.35
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  173610550.94,
+                                                                          "optimistic":  220256221.03,
+                                                                          "conservative":  136843460.12
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  177536001.5,
+                                                                          "optimistic":  225236361.35,
+                                                                          "conservative":  139937582.19
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.CEREALERA, OLEAGINOSA Y FORRAJERA",
+                                       "observations":  14,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  18289
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  8600
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  18532.8
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  10080
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  92971.91
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  1422
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  15264.72
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  17823.25
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  574981.7
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  922525.8
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  426939
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  15270.84
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  80921.68
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  45600.28
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.60814391,
+                                                                          "ar1":  -0.48289736,
+                                                                          "itcrm_beta":  7.92435467
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  1.61601379,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  45600.28,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  110501.84,
+                                                                          "optimistic":  556154.42,
+                                                                          "conservative":  21955.52
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  132390.35,
+                                                                          "optimistic":  666319.03,
+                                                                          "conservative":  26304.53
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  222878.82,
+                                                                          "optimistic":  1121746.39,
+                                                                          "conservative":  44283.6
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  318379.39,
+                                                                          "optimistic":  1602399.57,
+                                                                          "conservative":  63258.53
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  492344.64,
+                                                                          "optimistic":  2477964.52,
+                                                                          "conservative":  97823.53
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  732754.63,
+                                                                          "optimistic":  3687945.04,
+                                                                          "conservative":  145590.39
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  1110915.12,
+                                                                          "optimistic":  5591222.16,
+                                                                          "conservative":  220726.77
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  1669260.42,
+                                                                          "optimistic":  8401367.17,
+                                                                          "conservative":  331663.92
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  2519071.62,
+                                                                          "optimistic":  12678456.52,
+                                                                          "conservative":  500512.17
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  3793607.28,
+                                                                          "optimistic":  19093178.86,
+                                                                          "conservative":  753748.57
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MINERA",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  22630522
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  27253415
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  32281376.41
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  374642716.96
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  385034486.45000005
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  527198313.51
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  780452470.06
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  1658742185.16
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  1920664952.78
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  1776268991.46
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  1360153462.97
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  1348813432.58
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  1073093302.04
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  969475455.7
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  1121866748.3200002
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  943745371.62
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  955752187.7
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  832516862.11
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  915511376.8599999
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  871921480.02
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  865674711.56
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  1506941759.8700001
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  1757009987.0000002
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.19777827,
+                                                                          "ar1":  0.04882663,
+                                                                          "itcrm_beta":  0.33359462
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.55946355,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  1757009987,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  2157366299.65,
+                                                                          "optimistic":  3774816321.07,
+                                                                          "conservative":  1232968429.45
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  2655649638.09,
+                                                                          "optimistic":  4646679425.06,
+                                                                          "conservative":  1517745115.41
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  3269423944.21,
+                                                                          "optimistic":  5720620956.72,
+                                                                          "conservative":  1868526687.55
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  4025078141.49,
+                                                                          "optimistic":  7042814502.35,
+                                                                          "conservative":  2300394826.48
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  4955386357.41,
+                                                                          "optimistic":  8670606054.34,
+                                                                          "conservative":  2832080456.35
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  6100714927.93,
+                                                                          "optimistic":  10674625947.33,
+                                                                          "conservative":  3486653566.64
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  7510761013.06,
+                                                                          "optimistic":  13141830972.5,
+                                                                          "conservative":  4292516858.07
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  9246708240.55,
+                                                                          "optimistic":  16179276179.6,
+                                                                          "conservative":  5284637726.48
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  11383881491.8,
+                                                                          "optimistic":  19918760045.22,
+                                                                          "conservative":  6506065514.37
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  14015015338.22,
+                                                                          "optimistic":  24522543365.66,
+                                                                          "conservative":  8009799473.15
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.PRODUCTOS QUÍMICOS",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  10548411
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  10247917
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  8182232.91
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  11582217.129999999
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  9287671.46
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  15218427.850000003
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  14617828.320000002
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  12537541.889999995
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  12062132.32
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  14798596.420000004
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  9387973.09
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  4599782.42
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  4510083.9600000009
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  4988752.2
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  4468413.62
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  2634721.7600000002
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  1964815.9099999997
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  2756739.5000000005
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  2883541.6100000003
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  3514111.2500000005
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  2121532.33
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  2791874.6599999997
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  3012604.36
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.10014386,
+                                                                          "ar1":  -0.0825435,
+                                                                          "itcrm_beta":  -1.33509581
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.28080429,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  3012604.36,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  2708459.99,
+                                                                          "optimistic":  3586527.62,
+                                                                          "conservative":  2045364.29
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  2471983.86,
+                                                                          "optimistic":  3273387.25,
+                                                                          "conservative":  1866783.17
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  2253350.58,
+                                                                          "optimistic":  2983874.27,
+                                                                          "conservative":  1701676.54
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  2054265.06,
+                                                                          "optimistic":  2720246.33,
+                                                                          "conservative":  1551331.9
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  1872753.05,
+                                                                          "optimistic":  2479889.14,
+                                                                          "conservative":  1414258.37
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  1707280.38,
+                                                                          "optimistic":  2260771.16,
+                                                                          "conservative":  1289297.36
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  1556428.46,
+                                                                          "optimistic":  2061013.88,
+                                                                          "conservative":  1175377.59
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  1418905.51,
+                                                                          "optimistic":  1878906.77,
+                                                                          "conservative":  1071523.55
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  1293533.83,
+                                                                          "optimistic":  1712890.28,
+                                                                          "conservative":  976845.85
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  1179239.74,
+                                                                          "optimistic":  1561542.68,
+                                                                          "conservative":  890533.68
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.FARMACÉUTICA",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  2628339
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  4709852
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  5397294.82
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  11037982.77
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  15669733.870000001
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  18425944.27
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  20680059.740000002
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  28519276.060000002
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  44608986.43
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  58047657.43
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  64801953.7
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  60464128.160000004
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  68203313.69
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  42062326.440000005
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  44296187.569999993
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  48401022
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  39812851.980000004
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  50910682.220000006
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  43938822.729999989
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  53521012.61
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  46720257.260000005
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  60834426.24
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  67678375.59
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.08097737,
+                                                                          "ar1":  0.13825924,
+                                                                          "itcrm_beta":  -0.9204725
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.22469333,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  67678375.59,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  74476528.07,
+                                                                          "optimistic":  93240049.7,
+                                                                          "conservative":  59488956.2
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  81834194.61,
+                                                                          "optimistic":  102451397.39,
+                                                                          "conservative":  65365974.29
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  89900015.44,
+                                                                          "optimistic":  112549310.85,
+                                                                          "conservative":  71808638.5
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  98757984.13,
+                                                                          "optimistic":  123638944.89,
+                                                                          "conservative":  78884039.64
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  108488308.47,
+                                                                          "optimistic":  135820714.75,
+                                                                          "conservative":  86656244.57
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  119177266.53,
+                                                                          "optimistic":  149202635.3,
+                                                                          "conservative":  95194168.86
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  130919358.76,
+                                                                          "optimistic":  163903015.28,
+                                                                          "conservative":  104573295.79
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  143818354.09,
+                                                                          "optimistic":  180051767.07,
+                                                                          "conservative":  114876511.95
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  157988239.01,
+                                                                          "optimistic":  197791594.75,
+                                                                          "conservative":  126194865.34
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  173554229.69,
+                                                                          "optimistic":  217279261.31,
+                                                                          "conservative":  138628373.75
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.COSMÉTICA",
+                                       "observations":  22,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  129123
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  230464
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  11464.1
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  8112.5
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  207841.14
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  1209701.74
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  2066919.1100000003
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  1089104.07
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  2078637.52
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  1042022.02
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  670877.25
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  597877.44
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  576144.9
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  559053.5
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  622249.45
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  662507.62
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  774760.84
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  1285912.88
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  932281
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  631333.94
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  1083674.1
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  822063.61
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.00952795,
+                                                                          "ar1":  0.12271443,
+                                                                          "itcrm_beta":  -2.08542224
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  1.09418561,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  822063.61,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  787122.96,
+                                                                          "optimistic":  2350938.97,
+                                                                          "conservative":  263538.34
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  775514.47,
+                                                                          "optimistic":  2316267.31,
+                                                                          "conservative":  259651.68
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  766761.21,
+                                                                          "optimistic":  2290123.52,
+                                                                          "conservative":  256720.98
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  758433.04,
+                                                                          "optimistic":  2265249.37,
+                                                                          "conservative":  253932.61
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  750234.95,
+                                                                          "optimistic":  2240763.71,
+                                                                          "conservative":  251187.79
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  742130.28,
+                                                                          "optimistic":  2216557.09,
+                                                                          "conservative":  248474.24
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  734113.74,
+                                                                          "optimistic":  2192613.71,
+                                                                          "conservative":  245790.21
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  726183.87,
+                                                                          "optimistic":  2168929.18,
+                                                                          "conservative":  243135.19
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  718339.67,
+                                                                          "optimistic":  2145500.52,
+                                                                          "conservative":  240508.86
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  710580.2,
+                                                                          "optimistic":  2122324.93,
+                                                                          "conservative":  237910.9
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MATERIAS PLÁSTICAS Y ARTIFICIALES",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  4548717
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  7656347
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  10617210.2
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  11842645.89
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  14081484.72
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  15050983.159999995
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  9965439.1900000013
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  12573851.039999995
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  13823672.230000006
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  12375863.06
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  11793436.13
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  11894043.279999996
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  10309339.349999996
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  8649290.5699999984
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  8714222.3100000024
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  8521952.709999999
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  7794676.830000001
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  5767279.1999999993
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  7961184.57
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  6201536.0800000019
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  4961460.7299999995
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  5648171.03
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  7826987.14
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.00133273,
+                                                                          "ar1":  0.07001389,
+                                                                          "itcrm_beta":  0.03663425
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.20534961,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  7826987.14,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  8018506.04,
+                                                                          "optimistic":  9846358.96,
+                                                                          "conservative":  6529971.07
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  8042800.99,
+                                                                          "optimistic":  9876192.05,
+                                                                          "conservative":  6549755.97
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  8055233.03,
+                                                                          "optimistic":  9891458.03,
+                                                                          "conservative":  6559880.16
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  8066847.94,
+                                                                          "optimistic":  9905720.6,
+                                                                          "conservative":  6569338.9
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  8078420.95,
+                                                                          "optimistic":  9919931.73,
+                                                                          "conservative":  6578763.53
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  8090006.46,
+                                                                          "optimistic":  9934158.2,
+                                                                          "conservative":  6588198.33
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  8101608.29,
+                                                                          "optimistic":  9948404.73,
+                                                                          "conservative":  6597646.43
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  8113226.75,
+                                                                          "optimistic":  9962671.65,
+                                                                          "conservative":  6607108.06
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  8124861.86,
+                                                                          "optimistic":  9976959.04,
+                                                                          "conservative":  6616583.26
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  8136513.66,
+                                                                          "optimistic":  9991266.91,
+                                                                          "conservative":  6626072.05
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.CAUCHO",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  129768
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  272731
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  395357.42999999993
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  357763.7699999999
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  483351.87
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  899542.37000000011
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  807386.14999999991
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  1332671.1700000006
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  1209822.2600000002
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  1181434.18
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  1370994.1
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  1218232.3900000001
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  683331.64000000013
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  625222.78
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  700898.66000000015
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  734489.9
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  727087.66000000015
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  922791.37
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  1032160.1199999998
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  1074090.6500000001
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  888564.76
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  1016650.9400000001
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  980911.41999999993
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.05448178,
+                                                                          "ar1":  0.10538145,
+                                                                          "itcrm_beta":  0.14071119
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.25022593,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  980911.42,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  1031936.76,
+                                                                          "optimistic":  1325332.42,
+                                                                          "conservative":  803491.6
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  1095557.22,
+                                                                          "optimistic":  1407041.17,
+                                                                          "conservative":  853028.08
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  1164217.77,
+                                                                          "optimistic":  1495222.98,
+                                                                          "conservative":  906488.89
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  1237306.64,
+                                                                          "optimistic":  1589092.15,
+                                                                          "conservative":  963397.7
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  1314998.01,
+                                                                          "optimistic":  1688872.39,
+                                                                          "conservative":  1023890.13
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  1397569.25,
+                                                                          "optimistic":  1794919.91,
+                                                                          "conservative":  1088182.15
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  1485325.47,
+                                                                          "optimistic":  1907626.59,
+                                                                          "conservative":  1156511.32
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  1578592.1,
+                                                                          "optimistic":  2027410.38,
+                                                                          "conservative":  1229131.04
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  1677715.14,
+                                                                          "optimistic":  2154715.64,
+                                                                          "conservative":  1306310.7
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  1783062.32,
+                                                                          "optimistic":  2290014.65,
+                                                                          "conservative":  1388336.63
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.DEL PAPEL",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  106475
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  58115
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  155382.34999999995
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  321965.93000000005
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  753189.59
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  42979.80999999999
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  19198.649999999998
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  31355.589999999997
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  25037.829999999998
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  129913.59000000001
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  197444.32
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  70212.31
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  15838.61
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  49226.35
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  559709.32000000007
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  3731156.36
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  975634.03999999992
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  1424132.0599999998
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  2230022.96
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  6228055.8900000006
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  2516944.3899999997
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  1977543.07
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  3622861.3600000003
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.23455508,
+                                                                          "ar1":  0.0630515,
+                                                                          "itcrm_beta":  1.69663222
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  1.21589933,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  3622861.36,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  4758779.2,
+                                                                          "optimistic":  16052915.67,
+                                                                          "conservative":  1410708.18
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  6121101.67,
+                                                                          "optimistic":  20648474.03,
+                                                                          "conservative":  1814559.54
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  7863017.53,
+                                                                          "optimistic":  26524524.85,
+                                                                          "conservative":  2330938.82
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  10099797.79,
+                                                                          "optimistic":  34069914.82,
+                                                                          "conservative":  2994017.33
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  12972803.21,
+                                                                          "optimistic":  43761499.95,
+                                                                          "conservative":  3845700.52
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  16663063.05,
+                                                                          "optimistic":  56209951.02,
+                                                                          "conservative":  4939653.31
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  21403058.38,
+                                                                          "optimistic":  72199502.55,
+                                                                          "conservative":  6344793.14
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  27491398.56,
+                                                                          "optimistic":  92737461.37,
+                                                                          "conservative":  8149640.75
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  35311635.42,
+                                                                          "optimistic":  119117673.07,
+                                                                          "conservative":  10467897.53
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  45356426.43,
+                                                                          "optimistic":  153002032.07,
+                                                                          "conservative":  13445608.47
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.TEXTIL",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  3290015
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  4834152
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  5420637.959999999
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  5256281.3199999994
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  6334234.379999999
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  9584482.8999999948
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  6648666.41
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  7191567.48
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  5945632.8500000006
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  7358193.9399999995
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  12868893.729999997
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  11450900.229999995
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  7419527.870000002
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  5352363.3400000008
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  4655948.54
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  4616685.76
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  5380842.5900000008
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  4110716.9499999997
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  6047724.36
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  6577031.5200000005
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  7388877.1500000013
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  8182718.3499999987
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  7704429.5699999994
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.01948284,
+                                                                          "ar1":  0.03407152,
+                                                                          "itcrm_beta":  -0.0449755
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.25351391,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  7704429.57,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  7839900.8,
+                                                                          "optimistic":  10102067.33,
+                                                                          "conservative":  6084303.59
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  7998891.06,
+                                                                          "optimistic":  10306933.49,
+                                                                          "conservative":  6207691
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  8161841.37,
+                                                                          "optimistic":  10516902.34,
+                                                                          "conservative":  6334151.67
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  8328136.81,
+                                                                          "optimistic":  10731181.55,
+                                                                          "conservative":  6463208.4
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  8497821.37,
+                                                                          "optimistic":  10949827.8,
+                                                                          "conservative":  6594895.32
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  8670963.27,
+                                                                          "optimistic":  11172928.97,
+                                                                          "conservative":  6729265.37
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  8847632.9,
+                                                                          "optimistic":  11400575.8,
+                                                                          "conservative":  6866373.18
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  9027902.15,
+                                                                          "optimistic":  11632860.89,
+                                                                          "conservative":  7006274.55
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  9211844.36,
+                                                                          "optimistic":  11869878.77,
+                                                                          "conservative":  7149026.39
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  9399534.37,
+                                                                          "optimistic":  12111725.85,
+                                                                          "conservative":  7294686.78
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.DEL VIDRIO",
+                                       "observations":  21,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  104088
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  103279
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  97970.43
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  123526.27000000002
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  131451.09999999998
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  110104.96
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  50640.85
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  96276.08
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  127779.29999999999
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  64568.88
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  44688
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  41261
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  19824
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  34824
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  784584
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  73485.69
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  92736.000000000015
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  498941.24
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  498061.29
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  242719.75999999998
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  213619.1
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.12394159,
+                                                                          "ar1":  -0.2858886,
+                                                                          "itcrm_beta":  2.40633689
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.99249642,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  213619.1,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  250797.99,
+                                                                          "optimistic":  676643.28,
+                                                                          "conservative":  92958.34
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  271162.33,
+                                                                          "optimistic":  731585.46,
+                                                                          "conservative":  100506.38
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  300167.29,
+                                                                          "optimistic":  809839.73,
+                                                                          "conservative":  111257.08
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  330044.95,
+                                                                          "optimistic":  890448.52,
+                                                                          "conservative":  122331.24
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  363595.79,
+                                                                          "optimistic":  980967.39,
+                                                                          "conservative":  134766.87
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  400336.88,
+                                                                          "optimistic":  1080093.41,
+                                                                          "conservative":  148384.96
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  440859.98,
+                                                                          "optimistic":  1189423.16,
+                                                                          "conservative":  163404.85
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  485463.09,
+                                                                          "optimistic":  1309760.63,
+                                                                          "conservative":  179937.01
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  534585.7,
+                                                                          "optimistic":  1442291.55,
+                                                                          "conservative":  198144.32
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  588676.73,
+                                                                          "optimistic":  1588227.05,
+                                                                          "conservative":  218193.17
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.METALES COMUNES Y SUS MANUFACTURAS",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  5352138
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  10374873
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  15196897.430000003
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  12557568.529999997
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  11894560.219999999
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  19925687.14
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  5025531.8000000026
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  18044351.19
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  15948966.280000001
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  3824781.5700000012
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  10853583.490000002
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  15689459.029999996
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  7472354.879999998
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  5058054.4299999988
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  2988239.31
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  1117537.8900000001
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  31673.510000000002
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  27109.659999999996
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  22881.180000000004
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  188762.02
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  44120.710000000006
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  58698.889999999992
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  879749.47
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.26652035,
+                                                                          "ar1":  -0.09475021,
+                                                                          "itcrm_beta":  -4.69059019
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  1.21044612,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  879749.47,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  521446.93,
+                                                                          "optimistic":  1749444.57,
+                                                                          "conservative":  155424.7
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  419743.71,
+                                                                          "optimistic":  1408232.21,
+                                                                          "conservative":  125110.61
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  328219.07,
+                                                                          "optimistic":  1101168.75,
+                                                                          "conservative":  97830.38
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  257357.45,
+                                                                          "optimistic":  863429.36,
+                                                                          "conservative":  76709.06
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  201742.13,
+                                                                          "optimistic":  676841.03,
+                                                                          "conservative":  60132.12
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  158149.27,
+                                                                          "optimistic":  530587.8,
+                                                                          "conservative":  47138.65
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  123975.75,
+                                                                          "optimistic":  415936.3,
+                                                                          "conservative":  36952.74
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  97186.61,
+                                                                          "optimistic":  326059.22,
+                                                                          "conservative":  28967.86
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  76186.16,
+                                                                          "optimistic":  255603.11,
+                                                                          "conservative":  22708.37
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  59723.56,
+                                                                          "optimistic":  200371.43,
+                                                                          "conservative":  17801.46
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MAQUINARIA Y EQUIPOS",
+                                       "observations":  23,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  5209960
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  5619102
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  8725254.1099999975
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  10938849.95
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  12943830.030000001
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  16471281.48
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  14894690.55
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  20266429.709999986
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  21711800.490000002
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  18446187.78
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  16550421.679999996
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  13243271.030000001
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  8818569.1100000031
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  6303144.2400000021
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  8065724.6699999981
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  7229760.3999999976
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  6768986.0699999975
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  6411468.2300000014
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  7527009.47
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  7729381.82
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  7289691.62
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  9075656.8399999961
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  10008530.800000003
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.01485252,
+                                                                          "ar1":  0.3397724,
+                                                                          "itcrm_beta":  -0.13329857
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  0.20063837,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  10008530.8,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  10501670.65,
+                                                                          "optimistic":  12834960.37,
+                                                                          "conservative":  8592553.72
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  10834426.99,
+                                                                          "optimistic":  13241649.41,
+                                                                          "conservative":  8864817.71
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  11113718.64,
+                                                                          "optimistic":  13582994.84,
+                                                                          "conservative":  9093336.44
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  11377986.67,
+                                                                          "optimistic":  13905978.66,
+                                                                          "conservative":  9309562.73
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  11640818.32,
+                                                                          "optimistic":  14227206.95,
+                                                                          "conservative":  9524613.75
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  11907038.83,
+                                                                          "optimistic":  14552577.07,
+                                                                          "conservative":  9742437.58
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  12178415.54,
+                                                                          "optimistic":  14884248.99,
+                                                                          "conservative":  9964480.25
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  12455653.35,
+                                                                          "optimistic":  15223084.25,
+                                                                          "conservative":  10191318.51
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  12739089.82,
+                                                                          "optimistic":  15569495.41,
+                                                                          "conservative":  10423228.58
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  13028936.96,
+                                                                          "optimistic":  15923741.57,
+                                                                          "conservative":  10660383.9
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MATERIAL DE TRANSPORTE TERRESTRE Y SUS PARTES",
+                                       "observations":  18,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  270
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  56
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  76295.39
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  41493.08
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  12256.54
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  11500
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  27811.5
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  2584.7
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  12998.07
+                                                          },
+                                                          {
+                                                              "year":  2017,
+                                                              "value":  53799.490000000005
+                                                          },
+                                                          {
+                                                              "year":  2018,
+                                                              "value":  40484.359999999993
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  9772.77
+                                                          },
+                                                          {
+                                                              "year":  2020,
+                                                              "value":  115771.27
+                                                          },
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  4311.1399999999994
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  15471.849999999999
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  2650.74
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  477.91999999999996
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  248.34
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.17181549,
+                                                                          "ar1":  -0.34433541,
+                                                                          "itcrm_beta":  2.15961661
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  2.23272502,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  248.34,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  369.46,
+                                                                          "optimistic":  3445.27,
+                                                                          "conservative":  39.62
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  382.63,
+                                                                          "optimistic":  3568.11,
+                                                                          "conservative":  41.03
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  448.91,
+                                                                          "optimistic":  4186.18,
+                                                                          "conservative":  48.14
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  504.53,
+                                                                          "optimistic":  4704.85,
+                                                                          "conservative":  54.1
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  575.49,
+                                                                          "optimistic":  5366.57,
+                                                                          "conservative":  61.71
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  653.09,
+                                                                          "optimistic":  6090.27,
+                                                                          "conservative":  70.04
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  742.47,
+                                                                          "optimistic":  6923.69,
+                                                                          "conservative":  79.62
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  843.56,
+                                                                          "optimistic":  7866.4,
+                                                                          "conservative":  90.46
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  958.62,
+                                                                          "optimistic":  8939.33,
+                                                                          "conservative":  102.8
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  1089.29,
+                                                                          "optimistic":  10157.88,
+                                                                          "conservative":  116.81
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MUEBLES Y MOBILIARIOS",
+                                       "observations":  19,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2003,
+                                                              "value":  45
+                                                          },
+                                                          {
+                                                              "year":  2004,
+                                                              "value":  5562
+                                                          },
+                                                          {
+                                                              "year":  2005,
+                                                              "value":  492.76
+                                                          },
+                                                          {
+                                                              "year":  2006,
+                                                              "value":  3881.56
+                                                          },
+                                                          {
+                                                              "year":  2007,
+                                                              "value":  4069.24
+                                                          },
+                                                          {
+                                                              "year":  2008,
+                                                              "value":  2996.3
+                                                          },
+                                                          {
+                                                              "year":  2009,
+                                                              "value":  786.3
+                                                          },
+                                                          {
+                                                              "year":  2010,
+                                                              "value":  6566.96
+                                                          },
+                                                          {
+                                                              "year":  2011,
+                                                              "value":  13923.239999999998
+                                                          },
+                                                          {
+                                                              "year":  2012,
+                                                              "value":  1368
+                                                          },
+                                                          {
+                                                              "year":  2013,
+                                                              "value":  120
+                                                          },
+                                                          {
+                                                              "year":  2014,
+                                                              "value":  1849.4
+                                                          },
+                                                          {
+                                                              "year":  2015,
+                                                              "value":  11424.28
+                                                          },
+                                                          {
+                                                              "year":  2016,
+                                                              "value":  88
+                                                          },
+                                                          {
+                                                              "year":  2019,
+                                                              "value":  1575.5
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  3402.5
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  1050
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  1460
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  43350
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.00435262,
+                                                                          "ar1":  -0.56092118,
+                                                                          "itcrm_beta":  -7.0816115
+                                                                      },
+                                                     "model_type":  "ARIMAX(1,1,0)",
+                                                     "rmse_log_growth":  1.90638469,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  43350,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  6442.67,
+                                                                          "optimistic":  43350.91,
+                                                                          "conservative":  957.49
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  18688.53,
+                                                                          "optimistic":  125749.89,
+                                                                          "conservative":  2777.43
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  10238.91,
+                                                                          "optimistic":  68894.73,
+                                                                          "conservative":  1521.67
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  14287.1,
+                                                                          "optimistic":  96133.89,
+                                                                          "conservative":  2123.3
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  11800.32,
+                                                                          "optimistic":  79401.04,
+                                                                          "conservative":  1753.73
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  13079.41,
+                                                                          "optimistic":  88007.68,
+                                                                          "conservative":  1943.82
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  12292.15,
+                                                                          "optimistic":  82710.42,
+                                                                          "conservative":  1826.82
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  12672.44,
+                                                                          "optimistic":  85269.27,
+                                                                          "conservative":  1883.34
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  12403.6,
+                                                                          "optimistic":  83460.3,
+                                                                          "conservative":  1843.38
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  12499.16,
+                                                                          "optimistic":  84103.34,
+                                                                          "conservative":  1857.58
+                                                                      }
+                                                                  ]
+                                                 }
+                                   }
+                               ],
+                    "aggregate":  [
+                                      {
+                                          "year":  2026,
+                                          "base":  2544440862.5,
+                                          "optimistic":  4294635172.78,
+                                          "conservative":  1527071207.7
+                                      },
+                                      {
+                                          "year":  2027,
+                                          "base":  3047802472.89,
+                                          "optimistic":  5172815708.25,
+                                          "conservative":  1816727454.59
+                                      },
+                                      {
+                                          "year":  2028,
+                                          "base":  3693907259.01,
+                                          "optimistic":  6295546882.24,
+                                          "conservative":  2190089924.17
+                                      },
+                                      {
+                                          "year":  2029,
+                                          "base":  4468684107.54,
+                                          "optimistic":  7646942445.81,
+                                          "conservative":  2635923343.68
+                                      },
+                                      {
+                                          "year":  2030,
+                                          "base":  5430547155.44,
+                                          "optimistic":  9324170109.52,
+                                          "conservative":  3189557948.81
+                                      },
+                                      {
+                                          "year":  2031,
+                                          "base":  6604249795.21,
+                                          "optimistic":  11374136350.34,
+                                          "conservative":  3863881915.22
+                                      },
+                                      {
+                                          "year":  2032,
+                                          "base":  8050006120.38,
+                                          "optimistic":  13900595445.3,
+                                          "conservative":  4694030714.82
+                                      },
+                                      {
+                                          "year":  2033,
+                                          "base":  9823218082.78,
+                                          "optimistic":  17002376575.54,
+                                          "conservative":  5711112000.02
+                                      },
+                                      {
+                                          "year":  2034,
+                                          "base":  12003913034.47,
+                                          "optimistic":  20819561736.28,
+                                          "conservative":  6961061773.46
+                                      },
+                                      {
+                                          "year":  2035,
+                                          "base":  14683185816.49,
+                                          "optimistic":  25513218549.3,
+                                          "conservative":  8495602716.04
+                                      }
+                                  ]
+                },
+    "imports":  {
+                    "chains":  [
+                                   {
+                                       "chain":  "C.PRODUCTOS QUÍMICOS",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  1496606.4500000002
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  2031866.4399999997
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  3196893.3799999994
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  2628220.8100000005
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  3230646.1099999994
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.19237049,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.24074341,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  3230646.11,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  3915929.2,
+                                                                          "optimistic":  4981823.83,
+                                                                          "conservative":  3078089.87
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  4746574.2,
+                                                                          "optimistic":  6038565.89,
+                                                                          "conservative":  3731012.81
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  5753415.23,
+                                                                          "optimistic":  7319463.57,
+                                                                          "conservative":  4522433.44
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  6973826.88,
+                                                                          "optimistic":  8872064.63,
+                                                                          "conservative":  5481729.83
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  8453111.66,
+                                                                          "optimistic":  10754002.69,
+                                                                          "conservative":  6644511.71
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  10246181.61,
+                                                                          "optimistic":  13035136.53,
+                                                                          "conservative":  8053942.31
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  12419596.7,
+                                                                          "optimistic":  15800143.38,
+                                                                          "conservative":  9762340.65
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  15054035.53,
+                                                                          "optimistic":  19151662.15,
+                                                                          "conservative":  11833123.63
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  18247290.26,
+                                                                          "optimistic":  23214103.45,
+                                                                          "conservative":  14343160.08
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  22117896.64,
+                                                                          "optimistic":  28138267.83,
+                                                                          "conservative":  17385624.25
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "OTROS",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  349751.83000000007
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  720556.04
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  177138.8
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  437643.50000000006
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  486267.5500000001
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.08238379,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.90734755,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  486267.55,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  528024.55,
+                                                                          "optimistic":  1308308.46,
+                                                                          "conservative":  213107.18
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  573367.32,
+                                                                          "optimistic":  1420656.14,
+                                                                          "conservative":  231407.22
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  622603.79,
+                                                                          "optimistic":  1542651.39,
+                                                                          "conservative":  251278.73
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  676068.31,
+                                                                          "optimistic":  1675122.68,
+                                                                          "conservative":  272856.65
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  734123.97,
+                                                                          "optimistic":  1818969.6,
+                                                                          "conservative":  296287.53
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  797165.01,
+                                                                          "optimistic":  1975169.02,
+                                                                          "conservative":  321730.47
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  865619.54,
+                                                                          "optimistic":  2144781.66,
+                                                                          "conservative":  349358.26
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  939952.43,
+                                                                          "optimistic":  2328959.37,
+                                                                          "conservative":  379358.52
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  1020668.47,
+                                                                          "optimistic":  2528952.86,
+                                                                          "conservative":  411934.97
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  1108315.79,
+                                                                          "optimistic":  2746120.3,
+                                                                          "conservative":  447308.85
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MATERIAS PLÁSTICAS Y ARTIFICIALES",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  6380728.3299999991
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  7777836.23
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  1560148.2699999996
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  3893299.8800000008
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  1895620.4599999995
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.30343401,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.94947325,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  1895620.46,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  1399496.03,
+                                                                          "optimistic":  3616784.74,
+                                                                          "conservative":  541527.7
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  1033217.98,
+                                                                          "optimistic":  2670194.8,
+                                                                          "conservative":  399798.32
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  762802.73,
+                                                                          "optimistic":  1971347.69,
+                                                                          "conservative":  295162.54
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  563160.93,
+                                                                          "optimistic":  1455403.83,
+                                                                          "conservative":  217912.19
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  415769.67,
+                                                                          "optimistic":  1074493.51,
+                                                                          "conservative":  160879.91
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  306953.85,
+                                                                          "optimistic":  793275.57,
+                                                                          "conservative":  118774.2
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  226617.46,
+                                                                          "optimistic":  585658.38,
+                                                                          "conservative":  87688.45
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  167306.82,
+                                                                          "optimistic":  432379.05,
+                                                                          "conservative":  64738.5
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  123519.05,
+                                                                          "optimistic":  319216.2,
+                                                                          "conservative":  47795.05
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  91191.47,
+                                                                          "optimistic":  235670.49,
+                                                                          "conservative":  35286.06
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MAQUINARIA Y EQUIPOS",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  11323287.660000008
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  19440625.109999988
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  41881277.460000016
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  22325015.61999999
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  52226129.900000028
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.38218037,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.59477024,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  52226129.9,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  76536160.32,
+                                                                          "optimistic":  138730547.99,
+                                                                          "conservative":  42224181.49
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  112161935.94,
+                                                                          "optimistic":  203306342.68,
+                                                                          "conservative":  61878541.07
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  164370669,
+                                                                          "optimistic":  297940645.17,
+                                                                          "conservative":  90681540.99
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  240881334.66,
+                                                                          "optimistic":  436624981.18,
+                                                                          "conservative":  132891657.35
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  353005908.79,
+                                                                          "optimistic":  639863601.28,
+                                                                          "conservative":  194749586.3
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  517321824.93,
+                                                                          "optimistic":  937705000.62,
+                                                                          "conservative":  285400920.73
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  758122920.56,
+                                                                          "optimistic":  1374184539.37,
+                                                                          "conservative":  418248311.06
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  1111011240.94,
+                                                                          "optimistic":  2013834998.21,
+                                                                          "conservative":  612933025.1
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  1628160742.84,
+                                                                          "optimistic":  2951227643.61,
+                                                                          "conservative":  898238877.05
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  2386031128.06,
+                                                                          "optimistic":  4324954433.79,
+                                                                          "conservative":  1316347867.06
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MATERIAL DE TRANSPORTE TERRESTRE Y SUS PARTES",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  3964530.66
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  7736052.7
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  8691775.5299999975
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  6494154.0600000005
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  9749555.9900000021
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.22495857,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.35640363,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  9749555.99,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  12209084.57,
+                                                                          "optimistic":  17436817.95,
+                                                                          "conservative":  8548678.23
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  15289080.46,
+                                                                          "optimistic":  21835618.48,
+                                                                          "conservative":  10705260.37
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  19146069.47,
+                                                                          "optimistic":  27344108.07,
+                                                                          "conservative":  13405885.29
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  23976064.29,
+                                                                          "optimistic":  34242228.9,
+                                                                          "conservative":  16787799.09
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  30024525.92,
+                                                                          "optimistic":  42880544.39,
+                                                                          "conservative":  21022871.09
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  37598837.98,
+                                                                          "optimistic":  53698054.89,
+                                                                          "conservative":  26326328.22
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  47083928.03,
+                                                                          "optimistic":  67244507.74,
+                                                                          "conservative":  32967692.88
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  58961829.61,
+                                                                          "optimistic":  84208335.48,
+                                                                          "conservative":  41284480.11
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  73836179.28,
+                                                                          "optimistic":  105451642.13,
+                                                                          "conservative":  51699350.15
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  92462893.47,
+                                                                          "optimistic":  132054015.36,
+                                                                          "conservative":  64741588.09
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.CAUCHO",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  1025309.0899999999
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  751399.67000000016
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  895436.83000000007
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  804518.11999999988
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  634430.61
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.12000537,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.18549396,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  634430.61,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  562686.45,
+                                                                          "optimistic":  677369.23,
+                                                                          "conservative":  467420.18
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  499055.43,
+                                                                          "optimistic":  600769.38,
+                                                                          "conservative":  414562.28
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  442620.09,
+                                                                          "optimistic":  532831.78,
+                                                                          "conservative":  367681.79
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  392566.69,
+                                                                          "optimistic":  472576.86,
+                                                                          "conservative":  326102.74
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  348173.55,
+                                                                          "optimistic":  419135.83,
+                                                                          "conservative":  289225.63
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  308800.58,
+                                                                          "optimistic":  371738.13,
+                                                                          "conservative":  256518.75
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  273880.08,
+                                                                          "optimistic":  329700.38,
+                                                                          "conservative":  227510.5
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  242908.53,
+                                                                          "optimistic":  292416.43,
+                                                                          "conservative":  201782.62
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  215439.39,
+                                                                          "optimistic":  259348.72,
+                                                                          "conservative":  178964.17
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  191076.57,
+                                                                          "optimistic":  230020.44,
+                                                                          "conservative":  158726.13
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.DEL VIDRIO",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  242775.56999999998
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  103985.48999999999
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  35798.090000000004
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  129979.73999999999
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  95124.44
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.23423788,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.92151933,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  95124.44,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  75259.94,
+                                                                          "optimistic":  189136.2,
+                                                                          "conservative":  29946.99
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  59543.68,
+                                                                          "optimistic":  149639.57,
+                                                                          "conservative":  23693.27
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  47109.39,
+                                                                          "optimistic":  118390.87,
+                                                                          "conservative":  18745.49
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  37271.7,
+                                                                          "optimistic":  93667.73,
+                                                                          "conservative":  14830.93
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  29488.39,
+                                                                          "optimistic":  74107.44,
+                                                                          "conservative":  11733.84
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  23330.43,
+                                                                          "optimistic":  58631.85,
+                                                                          "conservative":  9283.51
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  18458.42,
+                                                                          "optimistic":  46387.97,
+                                                                          "conservative":  7344.87
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  14603.82,
+                                                                          "optimistic":  36700.94,
+                                                                          "conservative":  5811.06
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  11554.15,
+                                                                          "optimistic":  29036.81,
+                                                                          "conservative":  4597.56
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  9141.34,
+                                                                          "optimistic":  22973.16,
+                                                                          "conservative":  3637.47
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.METALES COMUNES Y SUS MANUFACTURAS",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  1684765.8300000005
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  1934942.67
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  3391704.8300000019
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  2952230.4899999988
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  4498838.98
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.24554819,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.26912656,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  4498838.98,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  5750964.35,
+                                                                          "optimistic":  7526981.64,
+                                                                          "conservative":  4394004.47
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  7351583.62,
+                                                                          "optimistic":  9621905.39,
+                                                                          "conservative":  5616952.1
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  9397690.27,
+                                                                          "optimistic":  12299892.29,
+                                                                          "conservative":  7180272.82
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  12013273.18,
+                                                                          "optimistic":  15723221.56,
+                                                                          "conservative":  9178699.93
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  15356830.09,
+                                                                          "optimistic":  20099338.31,
+                                                                          "conservative":  11733333.04
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  19630972.06,
+                                                                          "optimistic":  25693424.14,
+                                                                          "conservative":  14998976.47
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  25094701.32,
+                                                                          "optimistic":  32844466.51,
+                                                                          "conservative":  19173519.96
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  32079106.02,
+                                                                          "optimistic":  41985800.51,
+                                                                          "conservative":  24509930.27
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  41007423.45,
+                                                                          "optimistic":  53671367.88,
+                                                                          "conservative":  31331580.4
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  52420687.05,
+                                                                          "optimistic":  68609284.44,
+                                                                          "conservative":  40051845.08
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.TEXTIL",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  55590.39
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  103380.68000000001
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  1979270.85
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  853063.81
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  1889587.2100000004
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.88152583,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  1.35389157,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  1889587.21,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  4562561.65,
+                                                                          "optimistic":  17668365.81,
+                                                                          "conservative":  1178205.67
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  11016675.33,
+                                                                          "optimistic":  42661702.93,
+                                                                          "conservative":  2844873.2
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  26600656.53,
+                                                                          "optimistic":  103010143.51,
+                                                                          "conservative":  6869177.19
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  64229443.69,
+                                                                          "optimistic":  248726350.24,
+                                                                          "conservative":  16586185.71
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  155087203.67,
+                                                                          "optimistic":  600569955.51,
+                                                                          "conservative":  40048691.28
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  374470637.79,
+                                                                          "optimistic":  1450124890.7,
+                                                                          "conservative":  96700814.85
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  904189741.28,
+                                                                          "optimistic":  3501444218.67,
+                                                                          "conservative":  233491964.22
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  2183239500.6,
+                                                                          "optimistic":  8454521189.92,
+                                                                          "conservative":  563785294.27
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  5271608932.69,
+                                                                          "optimistic":  20414127453.37,
+                                                                          "conservative":  1361305341.25
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  12728727531.56,
+                                                                          "optimistic":  49291567236.15,
+                                                                          "conservative":  3286982209.28
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MINERA",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  411932.18
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  453734.34
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  1605560.78
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  1336223.1
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  1148874.88
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.25641991,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.59157742,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  1148874.88,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  1484685.57,
+                                                                          "optimistic":  2682583.79,
+                                                                          "conservative":  821704.52
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  1918652.13,
+                                                                          "optimistic":  3466690.33,
+                                                                          "conservative":  1061884.87
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  2479465.07,
+                                                                          "optimistic":  4479987.5,
+                                                                          "conservative":  1372268.79
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  3204200.97,
+                                                                          "optimistic":  5789466.64,
+                                                                          "conservative":  1773376.46
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  4140773.74,
+                                                                          "optimistic":  7481700.33,
+                                                                          "conservative":  2291726
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  5351102.3,
+                                                                          "optimistic":  9668565.92,
+                                                                          "conservative":  2961586.66
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  6915204.18,
+                                                                          "optimistic":  12494641.97,
+                                                                          "conservative":  3827244.42
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  8936485.62,
+                                                                          "optimistic":  16146766.67,
+                                                                          "conservative":  4945929.85
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  11548578.06,
+                                                                          "optimistic":  20866390.12,
+                                                                          "conservative":  6391601.73
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  14924172.76,
+                                                                          "optimistic":  26965537.18,
+                                                                          "conservative":  8259836.66
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.EQUIPO MÉDICO, QUIRÚRJICO Y ORTOPÉDICO",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  307319.91000000003
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  223142.4
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  50231.7
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  140977.21
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  113891.90000000001
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.24815988,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.89304666,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  113891.9,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  88862.47,
+                                                                          "optimistic":  217051.91,
+                                                                          "conservative":  36380.87
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  69333.63,
+                                                                          "optimistic":  169351.54,
+                                                                          "conservative":  28385.64
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  54096.53,
+                                                                          "optimistic":  132134.03,
+                                                                          "conservative":  22147.47
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  42208.02,
+                                                                          "optimistic":  103095.62,
+                                                                          "conservative":  17280.24
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  32932.18,
+                                                                          "optimistic":  80438.83,
+                                                                          "conservative":  13482.65
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  25694.85,
+                                                                          "optimistic":  62761.21,
+                                                                          "conservative":  10519.64
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  20048.02,
+                                                                          "optimistic":  48968.5,
+                                                                          "conservative":  8207.79
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  15642.17,
+                                                                          "optimistic":  38206.95,
+                                                                          "conservative":  6404.01
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  12204.57,
+                                                                          "optimistic":  29810.41,
+                                                                          "conservative":  4996.63
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  9522.44,
+                                                                          "optimistic":  23259.13,
+                                                                          "conservative":  3898.55
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.MUEBLES Y MOBILIARIOS",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  191424.38
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  78383
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  45724.68
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  204139.61
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  77717.28
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  -0.22535381,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  1.00694281,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  77717.28,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  62036.56,
+                                                                          "optimistic":  169807.7,
+                                                                          "conservative":  22664.07
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  49519.67,
+                                                                          "optimistic":  135546.24,
+                                                                          "conservative":  18091.23
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  39528.27,
+                                                                          "optimistic":  108197.58,
+                                                                          "conservative":  14441.03
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  31552.8,
+                                                                          "optimistic":  86366.96,
+                                                                          "conservative":  11527.32
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  25186.51,
+                                                                          "optimistic":  68941.02,
+                                                                          "conservative":  9201.49
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  20104.72,
+                                                                          "optimistic":  55031.05,
+                                                                          "conservative":  7344.94
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  16048.27,
+                                                                          "optimistic":  43927.64,
+                                                                          "conservative":  5862.98
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  12810.27,
+                                                                          "optimistic":  35064.53,
+                                                                          "conservative":  4680.03
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  10225.59,
+                                                                          "optimistic":  27989.69,
+                                                                          "conservative":  3735.76
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  8162.41,
+                                                                          "optimistic":  22342.31,
+                                                                          "conservative":  2982.01
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.PETROLERA Y ENERGÉTICA",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  766847.05999999994
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  27254912.1
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  61506073.57
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  23970473.939999998
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  23352409.03
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.85404201,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  1.68696713,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  23352409.03,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  54857678.13,
+                                                                          "optimistic":  296399822.74,
+                                                                          "conservative":  10153058.87
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  128867426.29,
+                                                                          "optimistic":  696279602.32,
+                                                                          "conservative":  23850782.79
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  302725418.32,
+                                                                          "optimistic":  1635646337.84,
+                                                                          "conservative":  56028419.33
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  711139203.56,
+                                                                          "optimistic":  3842334219.75,
+                                                                          "conservative":  131617641.24
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  1670553366.98,
+                                                                          "optimistic":  9026115190.48,
+                                                                          "conservative":  309186011.15
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  3924335120.22,
+                                                                          "optimistic":  21203453622.85,
+                                                                          "conservative":  726315929.93
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  9218745381.16,
+                                                                          "optimistic":  49809517832.23,
+                                                                          "conservative":  1706205361.97
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  21655965609.25,
+                                                                          "optimistic":  117008677492.35,
+                                                                          "conservative":  4008086037.03
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  50872524088.52,
+                                                                          "optimistic":  274867760306.82,
+                                                                          "conservative":  9415486575.25
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  119505809800.15,
+                                                                          "optimistic":  645698142011.98,
+                                                                          "conservative":  22118134847.79
+                                                                      }
+                                                                  ]
+                                                 }
+                                   },
+                                   {
+                                       "chain":  "C.DEL PAPEL",
+                                       "observations":  5,
+                                       "historical":  [
+                                                          {
+                                                              "year":  2021,
+                                                              "value":  31431.42
+                                                          },
+                                                          {
+                                                              "year":  2022,
+                                                              "value":  70166.53
+                                                          },
+                                                          {
+                                                              "year":  2023,
+                                                              "value":  561817.1
+                                                          },
+                                                          {
+                                                              "year":  2024,
+                                                              "value":  396910.24999999994
+                                                          },
+                                                          {
+                                                              "year":  2025,
+                                                              "value":  492958.63000000012
+                                                          }
+                                                      ],
+                                       "model":  {
+                                                     "coefficients":  {
+                                                                          "intercept":  0.68815431,
+                                                                          "ar1":  0,
+                                                                          "itcrm_beta":  0
+                                                                      },
+                                                     "model_type":  "ARIMA(0,1,0) con deriva",
+                                                     "rmse_log_growth":  0.90084019,
+                                                     "last_observed_year":  2025,
+                                                     "last_observed_value":  492958.63,
+                                                     "assumed_itcrm":  89.094823,
+                                                     "forecast":  [
+                                                                      {
+                                                                          "year":  2026,
+                                                                          "base":  981006.97,
+                                                                          "optimistic":  2414915.93,
+                                                                          "conservative":  398512.7
+                                                                      },
+                                                                      {
+                                                                          "year":  2027,
+                                                                          "base":  1952242.26,
+                                                                          "optimistic":  4805777.21,
+                                                                          "conservative":  793055.87
+                                                                      },
+                                                                      {
+                                                                          "year":  2028,
+                                                                          "base":  3885038.51,
+                                                                          "optimistic":  9563684.74,
+                                                                          "conservative":  1578212.23
+                                                                      },
+                                                                      {
+                                                                          "year":  2029,
+                                                                          "base":  7731378.69,
+                                                                          "optimistic":  19032106.95,
+                                                                          "conservative":  3140704.11
+                                                                      },
+                                                                      {
+                                                                          "year":  2030,
+                                                                          "base":  15385746.2,
+                                                                          "optimistic":  37874637.74,
+                                                                          "conservative":  6250124.1
+                                                                      },
+                                                                      {
+                                                                          "year":  2031,
+                                                                          "base":  30618237.13,
+                                                                          "optimistic":  75372011.48,
+                                                                          "conservative":  12437991.59
+                                                                      },
+                                                                      {
+                                                                          "year":  2032,
+                                                                          "base":  60931490.26,
+                                                                          "optimistic":  149993252.86,
+                                                                          "conservative":  24752090.07
+                                                                      },
+                                                                      {
+                                                                          "year":  2033,
+                                                                          "base":  121256050.43,
+                                                                          "optimistic":  298492443.83,
+                                                                          "conservative":  49257628.03
+                                                                      },
+                                                                      {
+                                                                          "year":  2034,
+                                                                          "base":  241304286.24,
+                                                                          "optimistic":  594011646,
+                                                                          "conservative":  98024607.68
+                                                                      },
+                                                                      {
+                                                                          "year":  2035,
+                                                                          "base":  480204974.1,
+                                                                          "optimistic":  1182106424.75,
+                                                                          "conservative":  195072805.9
+                                                                      }
+                                                                  ]
+                                                 }
+                                   }
+                               ],
+                    "aggregate":  [
+                                      {
+                                          "year":  2026,
+                                          "base":  163014436.76,
+                                          "optimistic":  494020317.92,
+                                          "conservative":  72107482.81
+                                      },
+                                      {
+                                          "year":  2027,
+                                          "base":  285588207.94,
+                                          "optimistic":  993162362.9,
+                                          "conservative":  111598301.04
+                                      },
+                                      {
+                                          "year":  2028,
+                                          "base":  536327183.2,
+                                          "optimistic":  2102009816.03,
+                                          "conservative":  182607667.13
+                                      },
+                                      {
+                                          "year":  2029,
+                                          "base":  1071891554.37,
+                                          "optimistic":  4615230873.53,
+                                          "conservative":  318318303.79
+                                      },
+                                      {
+                                          "year":  2030,
+                                          "base":  2253593141.32,
+                                          "optimistic":  10389175056.96,
+                                          "conservative":  592707665.72
+                                      },
+                                      {
+                                          "year":  2031,
+                                          "base":  4921054963.46,
+                                          "optimistic":  23772067313.96,
+                                          "conservative":  1173920662.27
+                                      },
+                                      {
+                                          "year":  2032,
+                                          "base":  11034923635.28,
+                                          "optimistic":  54966723027.26,
+                                          "conservative":  2449114498.08
+                                      },
+                                      {
+                                          "year":  2033,
+                                          "base":  25187897082.04,
+                                          "optimistic":  127940182416.39,
+                                          "conservative":  5317298223.03
+                                      },
+                                      {
+                                          "year":  2034,
+                                          "base":  58159631132.56,
+                                          "optimistic":  299033524908.07,
+                                          "conservative":  11877473117.73
+                                      },
+                                      {
+                                          "year":  2035,
+                                          "base":  135284116493.81,
+                                          "optimistic":  700755817597.31,
+                                          "conservative":  27047628463.18
+                                      }
+                                  ]
+                }
+};
